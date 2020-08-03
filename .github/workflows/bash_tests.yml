@@ -20,4 +20,4 @@ jobs:
     
     # Runs a single command using the runners shell
     - name: Run test
-      run: ./test/tesh.sh
+      run: ./test/test.sh
