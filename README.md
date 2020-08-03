@@ -15,7 +15,7 @@ HeLlO ThErE
 # Installation
 
 ```bash
-sudo ln -sf [PATH TO DIR]/memer /usr/bin/ # or ~/.local/bin
+./install.sh
 ```
 
 # Contributing
