@@ -3,6 +3,15 @@
 # memer
 Bunch of bash scripts to turn your text into things your friends will hate
 
+# Usage
+## UpPeR LoWeR 
+```bash
+$ memer -u "hello there"
+HeLlO ThErE
+```
+
+
+
 # Contributing
 
 Rules:
