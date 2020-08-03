@@ -10,7 +10,11 @@ $ memer -u "hello there"
 HeLlO ThErE
 ```
 
+# Installation
 
+```bash
+sudo ln -sf [PATH TO MEMER]/memer /usr/bin/ # or ~/.local/bin
+```
 
 # Contributing
 
