@@ -14,7 +14,7 @@ usage(){
 
 output="$(usage)"
 if [ $# -gt 2 ]; then 
-    echo -e "Illegal number of parameters\n$(usage)"
+    echo -e "Illegal number of parameters ($#, <=2 was expected)\n$(usage)"
     exit 1
 fi
 
