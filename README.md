@@ -1,6 +1,7 @@
 ![MEMER logo](images/logo.png)
 
 # memer
+![Tests](https://github.com/iwishiwasaneagle/memer/workflows/Tests/badge.svg)
 Bunch of bash scripts to turn your text into things your friends will hate
 
 # Usage
