@@ -16,7 +16,7 @@ jobs:
     
     # Install memer
     - name: Install memer
-      run: sudo -sf $(pwd)/memer /usr/bin/memer
+      run: sudo ln -sf $(pwd)/memer /usr/bin/memer
     
     # Runs a single command using the runners shell
     - name: Run test
