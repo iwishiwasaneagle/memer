@@ -1,15 +1,16 @@
 #!/bin/bash
 # MEMER BY JAN-HENDRIK EWERS
 
-SCRIPT_PATH="$(dirname "${BASH_SOURCE[0]}")"
-
+SCRIPT_PATH="$(dirname $(readlink -f "${BASH_SOURCE[0]}"))"
 source "$SCRIPT_PATH/src/upper_lower.sh"
+source "$SCRIPT_PATH/src/superscript.sh"
 
 usage(){
     local use_str="$SCRIPT_PATH/memer <ARG> \"<STRING>\"
     
     \t-h\thelp
     \t-u\tUpPeR LoWeR
+    \t-s\tˢᵘᵖᵉʳˢᶜʳᶦᵖᵗ
     "
     echo -e "$use_str"
 }
@@ -20,11 +21,12 @@ if [ $# -gt 2 ]; then
     exit 1
 fi
 
-while getopts hu: flag
+while getopts hus: flag
 	do  
 	    case "${flag}" in
             h) output=$(usage);;
             u) output="$(upper_lower ${OPTARG})";;
+            s) output="$(superscript ${OPTARG})";;
 	    esac
 	done
     

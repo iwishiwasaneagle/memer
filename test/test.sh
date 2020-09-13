@@ -1,6 +1,6 @@
 #!/bin/bash
 i=0
-total=3
+total=4
 status_msg(){
     echo "Test $i/$total"
     ((i=i+1))
@@ -15,3 +15,5 @@ tmp="$(memer -u hi -h)"; test $? -eq 1
 status_msg
 tmp="$(memer -u hi)"; test $? -eq 0
 
+status_msg
+test "$(memer -s superscript)" == "ˢᵘᵖᵉʳˢᶜʳᶦᵖᵗ"
