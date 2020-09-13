@@ -2,7 +2,6 @@
 # MEMER BY JAN-HENDRIK EWERS
 
 SCRIPT_PATH="$(dirname $(readlink -f "${BASH_SOURCE[0]}"))"
-echo "$SCRIPT_PATH"
 source "$SCRIPT_PATH/src/upper_lower.sh"
 source "$SCRIPT_PATH/src/superscript.sh"
 
