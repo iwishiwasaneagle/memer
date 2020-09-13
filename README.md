@@ -11,6 +11,11 @@ Bunch of bash scripts to turn your text into things your friends will hate
 $ memer -u "hello there"
 HeLlO ThErE
 ```
+## ˢᵘᵖᵉʳˢᶜʳᶦᵖᵗ
+```bash
+$memer -s "hello there"
+ʰᵉˡˡᵒᵗʰᵉʳᵉ
+```
 
 # Installation
 
