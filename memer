@@ -2,10 +2,10 @@
 # MEMER BY JAN-HENDRIK EWERS
 
 SCRIPT_PATH="$(dirname $(readlink -f "${BASH_SOURCE[0]}"))"
-
 source "$SCRIPT_PATH/src/upper_lower.sh"
 source "$SCRIPT_PATH/src/superscript.sh"
 source "$SCRIPT_PATH/src/w_i_d_e.sh"
+
 
 usage(){
     local use_str="$SCRIPT_PATH/memer <ARG> \"<STRING>\"
@@ -14,6 +14,7 @@ usage(){
     \t-u\tUpPeR LoWeR
     \t-s\tˢᵘᵖᵉʳˢᶜʳᶦᵖᵗ
     \t-w\tW I D E
+
     "
     echo -e "$use_str"
 }
@@ -31,6 +32,7 @@ while getopts husw: flag
             u) output="$(upper_lower ${OPTARG})";;
             s) output="$(superscript ${OPTARG})";;
             w) output="$(w_i_d_e ${OPTARG})";;
+
 	    esac
 	done
     
