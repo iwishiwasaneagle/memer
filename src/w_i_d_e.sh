@@ -7,6 +7,6 @@ w_i_d_e(){
     for (( i=0; i<"${#word}"; i++ )); do
         new_word="$new_word $(echo "${word:$i:1}" | tr a-z A-Z)"
     done
-    echo $new_word
+    echo $new_word | xargs
 }
 
