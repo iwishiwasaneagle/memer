@@ -3,8 +3,6 @@
 # memer
 ![Tests](https://github.com/iwishiwasaneagle/memer/workflows/Tests/badge.svg)
 
-Bunch of bash scripts to turn your text into things your friends will hate
-
 # Usage
 ## UpPeR LoWeR 
 ```bash
@@ -15,13 +13,10 @@ HeLlO ThErE
 # Installation
 
 ```bash
-sudo ln -sf [PATH TO DIR]/memer /usr/bin/ # or ~/.local/bin
+cmake -S . -B build
+sudo make --build build --target install
 ```
 
 # Contributing
 
-Rules:
-  - Has to be written for `bash`
-  - CAN use external prgrams (`sed`, `awk`, etc.) but nothing that doesn't come as standard with MOST linux distros
-  
-Other than that, be creative.
+Go HAM
