@@ -4,10 +4,20 @@
 ![Tests](https://github.com/iwishiwasaneagle/memer/workflows/Tests/badge.svg)
 
 # Usage
-## UpPeR LoWeR 
+### UpPeR LoWeR 
 ```bash
 $ memer -u "hello there"
 HeLlO ThErE
+```
+### ˢᵘᵖᵉʳˢᶜʳᶦᵖᵗ
+```bash
+$ memer -s "hello there"
+ʰᵉˡˡᵒᵗʰᵉʳᵉ
+```
+### W I D E
+```bash
+$ memer -w "hello there"
+H E L L O   T H E R E
 ```
 
 # Installation
