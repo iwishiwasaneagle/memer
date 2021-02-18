@@ -24,7 +24,7 @@ H E L L O   T H E R E
 
 ```bash
 cmake -S . -B build
-sudo make --build build --target install
+sudo cmake --build build --target install
 ```
 
 # Contributing
