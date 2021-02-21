@@ -27,6 +27,13 @@ cmake -S . -B build
 sudo cmake --build build --target install
 ```
 
+# Tests
+
+```bash
+cmake -S . -B build -DMAKE_TESTING=1
+cmake --build build --target check
+```
+
 # Contributing
 
 Go HAM
