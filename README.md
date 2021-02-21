@@ -1,7 +1,7 @@
 ![MEMER logo](images/logo.png)
 
 # memer
-![Tests](https://github.com/iwishiwasaneagle/memer/workflows/Tests/badge.svg)
+![Tests](https://github.com/iwishiwasaneagle/memer/workflows/Tests/badge.svg) [![codecov](https://codecov.io/gh/iwishiwasaneagle/memer/branch/master/graph/badge.svg?token=970I6T4QV0)](https://codecov.io/gh/iwishiwasaneagle/memer)
 
 # Usage
 ### UpPeR LoWeR 
