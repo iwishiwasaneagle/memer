@@ -22,5 +22,5 @@ jobs:
 
     - name: Run tests
       run: cmake --build build --target check 
-	
+      
     - uses: codecov/codecov-action@v1
