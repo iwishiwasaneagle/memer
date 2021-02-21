@@ -13,9 +13,16 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-    
+
     # Install memer
     - name: Install memer
       run: |
-        cmake -S . -B build
+        cmake -S . -B build -DCOVERAGE=1 -DMAKE_TESTING=1
         sudo cmake --build build --target install
+
+    - name: Run tests
+      run: cmake --build build --target check 
+	
+	- uses: codecov/codecov-action@v1
+  	  with:
+    	verbose: true # optional (default = false)
