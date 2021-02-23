@@ -46,3 +46,6 @@ build
 *.exe
 *.out
 *.app
+
+# Doxygen
+docs
